@@ -1,5 +1,6 @@
 import Header from '../widgets/Header'
 import Hero from '../widgets/Hero'
+import HowItWorks from '../widgets/HowitWorks'
 import Solutions from '../widgets/Solutions'
 
 const Index = () => {
@@ -11,6 +12,10 @@ const Index = () => {
 
         <section className="md:p-20">
           <Solutions />
+        </section>
+
+        <section className="mt-20">
+          <HowItWorks />
         </section>
       </main>
     </div>
