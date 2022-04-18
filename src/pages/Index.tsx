@@ -1,3 +1,4 @@
+import Clients from '../widgets/Clients'
 import Header from '../widgets/Header'
 import Hero from '../widgets/Hero'
 import HowItWorks from '../widgets/HowitWorks'
@@ -16,6 +17,10 @@ const Index = () => {
 
         <section className="mt-20">
           <HowItWorks />
+        </section>
+        
+        <section className="mt-20 md:w-3/5 mx-auto">
+          <Clients />
         </section>
       </main>
     </div>
