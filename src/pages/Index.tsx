@@ -1,5 +1,6 @@
 import Header from '../widgets/Header'
 import Hero from '../widgets/Hero'
+import Solutions from '../widgets/Solutions'
 
 const Index = () => {
   return (
@@ -7,6 +8,10 @@ const Index = () => {
       <Header></Header>
       <main className="mt-20">
         <Hero></Hero>
+
+        <section className="md:p-20">
+          <Solutions />
+        </section>
       </main>
     </div>
   )
