@@ -1,4 +1,5 @@
-init tailwindcss
+
+## init tailwindcss
 
 ```shell
 npx tailwindcss init -p
